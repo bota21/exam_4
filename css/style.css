@@ -139,11 +139,7 @@ a:focus {
 .works {
   padding-bottom: 22px;
   border-bottom: 1px solid #dfe1e5;
-}
-
-.works_title {
   background: url(../img/ic-cursor.png) 0 24px no-repeat;
-  border-bottom: 1px solid #dfe1e5;
 }
 
 .works_title_text {
@@ -151,12 +147,19 @@ a:focus {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: bold;
+  border-bottom: 1px solid #dfe1e5;
 }
 
 .works_items_pictures {
   padding: 20px 0 33px;
   display: flex;
   justify-content: space-between;
+}
+
+.works_items_pictures img {
+  width: 220px;
+  height: auto;
+  display: block;
 }
 
 .works_items_btn {
@@ -178,6 +181,34 @@ a:focus {
   background: url(../img/ic-download.png) 18px 15px no-repeat, linear-gradient(to bottom, #7fe3ec, #60cede);
   box-shadow: 0 3px 2px #dddddd, inset 0 -2px 7px #33b1cc;
 }
-.works_items_item_btn:hover{
+
+.works_items_item_btn:hover {
   opacity: 0.9;
+}
+
+.dialog {
+  padding: 28px 0;
+  background: url(../img/ic-msg.png) 0 22px no-repeat;
+}
+
+.dialog_title {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 0 23px 40px;
+}
+
+.dialog_text {
+  margin: 0 2px 35px 0;
+}
+
+.dialog_text, .dialog_author {
+  font-size: 14px;
+  line-height: 24px;
+  color: #363636;
+}
+
+.dialog_author {
+  font-weight: bold;
+  font-style: italic;
 }
