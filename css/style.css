@@ -6,9 +6,11 @@ body {
 * {
   box-sizing: border-box;
 }
-a:focus{
+
+a:focus {
   outline: transparent;
 }
+
 .container {
   width: 1000px;
   margin: 0 auto;
@@ -29,26 +31,32 @@ a:focus{
   display: flex;
   margin-right: 75px;
 }
-.menu_list{
+
+.menu_list {
   color: #000;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: bold;
   margin-left: 51px;
 }
-.menu_list:hover{
+
+.menu_list:hover {
   color: #2aacc8;
 }
-.promo{
+
+.promo {
   background: #81e4ed;
 }
-.promo_container{
+
+.promo_container {
   position: relative;
 }
-.promo_picture{
+
+.promo_picture {
   margin: 20px 0 40px;
 }
-.promo_text{
+
+.promo_text {
   width: 301px;
   font-size: 50px;
   color: #fff;
@@ -56,4 +64,74 @@ a:focus{
   top: 102px;
   left: 62px;
   line-height: 60px;
+}
+
+.content {
+  background: #e8ebf1;
+  color: #000;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.content_container {
+  display: flex;
+  padding: 60px 0 50px;
+}
+
+.content_items {
+  padding-right: 23px;
+}
+
+.content_item_last {
+  padding: 0;
+}
+
+.content_items_item {
+  display: flex;
+  align-items: center;
+}
+
+.content_items_item_icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.content_items_item_title {
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.content_icon_pen {
+  background: #2aacc8 url(../img/ic-pen.png) 50% no-repeat;
+}
+
+.content_icon_res {
+  background: #2aacc8 url(../img/ic-responsive.png) 50% no-repeat;
+}
+
+.content_icon_stripes {
+  background: #2aacc8 url(../img/ic-stripes.png) 50% no-repeat;
+}
+
+.content_icon_plane {
+  background: #2aacc8 url(../img/ic-plane.png) 50% no-repeat;
+}
+
+.content_items_item_text {
+  font-size: 13px;
+  line-height: 20px;
+  margin: 19px 19px 27px 0;
+}
+
+.content_items_item_link {
+  font-size: 13px;
+  color: #43b4cd;
+  background: url(../img/ic-arrow.png) 2px 50% no-repeat;
+  padding-left: 15px;
+}
+
+.content_items_item_link:hover {
+  color: #000;
 }
