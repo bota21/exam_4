@@ -38,5 +38,22 @@ a:focus{
 }
 .menu_list:hover{
   color: #2aacc8;
-
+}
+.promo{
+  background: #81e4ed;
+}
+.promo_container{
+  position: relative;
+}
+.promo_picture{
+  margin: 20px 0 40px;
+}
+.promo_text{
+  width: 301px;
+  font-size: 50px;
+  color: #fff;
+  position: absolute;
+  top: 102px;
+  left: 62px;
+  line-height: 60px;
 }
