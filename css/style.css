@@ -1,6 +1,7 @@
 body {
   background: #fff;
   font-family: arial, sans-serif;
+  color: #000;
 }
 
 * {
@@ -68,7 +69,6 @@ a:focus {
 
 .content {
   background: #e8ebf1;
-  color: #000;
   border-bottom: 1px solid #d9d9d9;
 }
 
@@ -134,4 +134,50 @@ a:focus {
 
 .content_items_item_link:hover {
   color: #000;
+}
+
+.works {
+  padding-bottom: 22px;
+  border-bottom: 1px solid #dfe1e5;
+}
+
+.works_title {
+  background: url(../img/ic-cursor.png) 0 24px no-repeat;
+  border-bottom: 1px solid #dfe1e5;
+}
+
+.works_title_text {
+  padding: 28px 0 19px 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.works_items_pictures {
+  padding: 20px 0 33px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.works_items_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.works_items_item_btn {
+  display: flex;
+  align-items: center;
+  color: #0d0707;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 240px;
+  height: 60px;
+  padding-left: 70px;
+  background: url(../img/ic-download.png) 18px 15px no-repeat, linear-gradient(to bottom, #7fe3ec, #60cede);
+  box-shadow: 0 3px 2px #dddddd, inset 0 -2px 7px #33b1cc;
+}
+.works_items_item_btn:hover{
+  opacity: 0.9;
 }
