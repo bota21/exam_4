@@ -1,0 +1,42 @@
+body {
+  background: #fff;
+  font-family: arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+a:focus{
+  outline: transparent;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #e8ebf1;
+  padding: 37px 0 47px;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  margin-right: 75px;
+}
+.menu_list{
+  color: #000;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 51px;
+}
+.menu_list:hover{
+  color: #2aacc8;
+
+}
