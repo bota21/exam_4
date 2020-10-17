@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body {
   background: #fff;
   font-family: arial, sans-serif;
@@ -5,7 +12,8 @@ body {
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 a:focus {
@@ -23,12 +31,20 @@ a:focus {
 }
 
 .header_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-right: 75px;
 }
@@ -54,6 +70,7 @@ a:focus {
 }
 
 .promo_picture {
+  width: 100%;
   margin: 20px 0 40px;
 }
 
@@ -73,6 +90,8 @@ a:focus {
 }
 
 .content_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 60px 0 50px;
 }
@@ -86,8 +105,12 @@ a:focus {
 }
 
 .content_items_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .content_items_item_icon {
@@ -152,8 +175,12 @@ a:focus {
 
 .works_items_pictures {
   padding: 20px 0 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .works_items_pictures img {
@@ -163,13 +190,21 @@ a:focus {
 }
 
 .works_items_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .works_items_item_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #0d0707;
   text-transform: uppercase;
   font-size: 18px;
@@ -178,8 +213,11 @@ a:focus {
   width: 240px;
   height: 60px;
   padding-left: 70px;
+  background: url(../img/ic-download.png) 18px 15px no-repeat, -webkit-gradient(linear, left bottom, left top, from(#2aacc8), color-stop(15%, #60cede), color-stop(50%, #72dae6), to(#81e4ed));
+  background: url(../img/ic-download.png) 18px 15px no-repeat, -o-linear-gradient(bottom, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%);
   background: url(../img/ic-download.png) 18px 15px no-repeat, linear-gradient(to top, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%);
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), inset 0 2px 1px rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), inset 0 2px 1px rgba(255, 255, 255, 0.1);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), inset 0 2px 1px rgba(255, 255, 255, 0.1);
 }
 
 .works_items_item_btn:hover {
